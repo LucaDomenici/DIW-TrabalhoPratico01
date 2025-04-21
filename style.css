@@ -1,0 +1,32 @@
+
+.texto {
+    width: 600px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.borda {
+    background-color: rgba(111, 110, 110, 0.475);
+}
+
+@media screen and (max-width:1350px) {
+    nav {
+        width: 100%;
+    }
+
+    .texto {
+        width: 350px !important;
+        font-size: large;
+    }
+
+    .barra-lateral {
+        display: none;
+    }
+
+    .corpo {
+        width: 100% !important;
+    }
+}
